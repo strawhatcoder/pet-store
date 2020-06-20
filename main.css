@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn {
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  color: #fff;
+  background: #bb323a;
+}
+
+/* Title */
+.store-name {
+  font-family: "Chewy", cursive;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.store-name h1 {
+  font-size: 40px;
+}
+
+.store-name h1 span {
+  color: #bb323a;
+}
+
+/* Filter */
+.filter-options {
+  font-family: "Gloria Hallelujah", cursive;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 4rem;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar i {
+  padding: 13px 10px;
+  background-color: #bb323a;
+  border-radius: 5px 0 0 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 1.2rem;
+  width: 25%;
+  border: 1px solid #777;
+  border-radius: 0 5px 5px 0;
+  border-left: 0;
+}
+
+.search-bar input:focus {
+  border: 1px solid #bb323a;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 10px;
+}
+
+.gallery .flex-item {
+  margin: 10px 20px;
+}
+
+.gallery .flex-item .card {
+  background: #fff;
+  border-radius: 10px;
+  height: 550px;
+}
+
+.gallery .flex-item .card img {
+  border-radius: 10px 10px 0 0;
+  width: 500px;
+  height: 450px;
+}
+
+.gallery .flex-item .card .container {
+  font-family: "Chewy", cursive;
+  display: flex;
+  padding: 30px;
+  font-size: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallery .flex-item .card:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
